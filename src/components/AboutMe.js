@@ -4,7 +4,7 @@ const AboutMe = () => {
 	return (
 		<div>
 			<h2>Emmanuel Zeta</h2>
-			<img src={MyProfile} />
+			<img src={MyProfile} alt='Photo of Emmanuel Zeta' />
 			<h3>
 				(+44)7468905860 | <a href='mailto:emmanuel.2000z@gmail.com'>Email Me!</a>
 			</h3>
