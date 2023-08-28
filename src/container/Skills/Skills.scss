@@ -1,0 +1,47 @@
+.app__skills {
+	flex: 1;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 3rem;
+}
+
+.app__skills-container {
+	margin-top: 10rem;
+
+	display: flex;
+	flex-direction: row;
+
+	svg {
+		width: 3rem;
+		height: auto;
+	}
+
+	@media screen and (max-width: 800px) {
+		flex-direction: column;
+		margin-top: 3rem;
+	}
+}
+.app__skills-list {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.app__skills-item {
+	flex-direction: column;
+	text-align: center;
+	margin: 1rem;
+	transition: all 0.3s ease-in-out;
+
+	div {
+		width: 90px;
+		height: 90px;
+		background-color: var(--white-color);
+		border-radius: 50%;
+	}
+
+	p {
+		margin-top: 0.5rem;
+	}
+}
